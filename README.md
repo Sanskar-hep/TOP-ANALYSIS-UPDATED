@@ -52,7 +52,7 @@ BDT Training (qq̄ / gg enrichment)
 TUnfold Unfolding (response matrix, L-curve scan)
      │
      ▼
-Aᵤ and A_d — Parton-level Charge Asymmetries
+Aᵤ and A_d — Parton-level Asymmetries
 ```
 
 ---
