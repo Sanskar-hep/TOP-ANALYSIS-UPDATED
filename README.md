@@ -15,7 +15,7 @@
 
 ## Overview
 
-This repository contains a **Coffea-based analysis framework** for the **Electron + Jets channel** in top quark pair production. The framework extracts **flavour-separated, collider-independent charge asymmetries** (Aᵤ and A_d) in tt̄ production using CMS Run 2 Ultra-Legacy data.
+This repository contains a **Coffea-based analysis framework** for the **Electron + Jets channel** in top quark pair production. The framework extracts **flavour-separated, collider-independent asymmetries observables** (Aᵤ and A_d) in tt̄ production using CMS Run 2 Ultra-Legacy data.
 
 ---
 
