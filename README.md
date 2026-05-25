@@ -8,7 +8,6 @@
 ![Coffea](https://img.shields.io/badge/Coffea-latest-teal?style=flat-square)
 ![CMS](https://img.shields.io/badge/CMS-Run%202%20UL-blue?style=flat-square)
 ![NanoAOD](https://img.shields.io/badge/Format-NanoAOD-green?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-orange?style=flat-square)
 
 </div>
 
@@ -24,13 +23,12 @@ This repository contains a **Coffea-based analysis framework** for the **Electro
 
 | Module | Description |
 |--------|-------------|
-| 🔍 **Event & Object Selection** | Trigger requirements, lepton/jet/b-tag selection, scale factors, and pileup weights |
-| 📊 **Data / MC Comparison** | Stacked histogram plots with ratio panels, era-parameterized luminosity weighting |
-| 🧮 **ABCD QCD Estimation** | Data-driven QCD background estimation using the ABCD transfer factor method |
-| 🤖 **BDT Classification** | XGBoost-based binary classifier for qq̄ / gg initial-state enrichment |
-| 🧩 **b-tagging Efficiency Maps** | JSON correction maps for b-tagging scale factors via `correctionlib` |
-| 📐 **χ² Kinematic Fitting** | Soft-constraint kinematic fitter with L-BFGS-B for top quark mass reconstruction |
-| 📈 **TUnfold Unfolding** | Response matrix construction and unfolding pipeline for parton-level asymmetries |
+| 🔍 **Event & Object Selection** | Selection Cuts on electrons, Jets and MET|
+| 📊 **Data / MC Comparison** | Data-MC agreement studies for each era of Run2 |
+| 🧮 **ABCD QCD Estimation** | Data-driven QCD background estimation using the ABCD method |
+| 🤖 **BDT Classification** | XGBoost-based binary classifier for distinguishing top quark pair arising from qq̄(signal) from those of gg|
+| 📐 **χ² Kinematic Fitting** | Reconstruction of the top-quark and the antitop quark kinematic observables|
+| 📈 **TUnfold Unfolding** | Response matrix construction and unfolding pipeline for parton-level asymmetries (Will be updated in a few weeks) |
 
 ---
 
@@ -102,20 +100,6 @@ pip install correctionlib hist xgboost
 
 ---
 
-## 📁 Repository Structure
-
-```
-top-analysis/
-├── processor/          # Coffea processors (selection, weights, ABCD)
-├── bdt/                # XGBoost training and evaluation scripts
-├── btag_maps/          # b-tagging efficiency JSON maps
-├── kinematic_fit/      # χ² kinematic fitter
-├── unfolding/          # TUnfold pipeline scripts
-├── plots/              # Data/MC and BDT performance plotting scripts
-└── README.md
-```
-
----
 
 ## 📋 Dataset
 
@@ -130,5 +114,4 @@ top-analysis/
 
 **CMS Collaboration · Run 2 UL · Electron + Jets · tt̄ Charge Asymmetry**
 
-</div>
 
