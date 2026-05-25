@@ -1,8 +1,7 @@
 <div align="center">
 
-# TOP Analysis — Electron + Jets Channel
+# Collider-Independent Asymmetries In Top-Quark Pair Production 
 
-**Coffea-based framework for charge asymmetry extraction in tt̄ production**
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue?style=flat-square&logo=python&logoColor=white)
 ![Coffea](https://img.shields.io/badge/Coffea-latest-teal?style=flat-square)
